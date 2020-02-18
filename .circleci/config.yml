@@ -1,0 +1,15 @@
+version: 2.1
+
+jobs:
+  verify-manifests:
+    docker:
+      - image: circleci/python:3.6.4
+    steps:
+      - checkout
+      - run: sudo pip3 install operator-courier
+      - run: make verify-manifest
+
+workflows:
+  main:
+    jobs:
+      - verify-manifests
