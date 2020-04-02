@@ -37,10 +37,10 @@ spec:
 
     ### Upgrading your installation
     The APIcast Operator understands how to run and upgrade between a set of APIcast versions.
-    See [the upgrade guide](https://github.com/3scale/apicast-operator) for more information.
+    See [the upgrade guide](https://github.com/3scale/apicast-operator/blob/v3.8/doc/operator-user-guide.md#upgrading-APIcast) for more information.
 
     ### Documentation
-    Documentation can be found on our [website](https://github.com/3scale/apicast-operator).
+    Documentation can be found on our [website](https://github.com/3scale/apicast-operator/tree/v3.8).
 
     ### Getting help
     If you encounter any issues while using operator, you can create an issue on our [website](https://github.com/3scale/apicast-operator) for bugs, enhancements, or other requests.
@@ -171,7 +171,7 @@ spec:
   - name: GitHub
     url: https://github.com/3scale/apicast-operator
   - name: Documentation
-    url: https://github.com/3scale/apicast-operator
+    url: https://github.com/3scale/apicast-operator/tree/v3.8
   maintainers:
   - email: eastizle+apicastoperator@redhat.com
     name: Apicast
