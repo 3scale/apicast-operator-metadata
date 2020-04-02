@@ -13,7 +13,7 @@ metadata:
     alm-examples: >-
        [{"apiVersion":"apps.3scale.net/v1alpha1","kind":"APIcast","metadata":{"name":"example-apicast"},"spec":{"adminPortalCredentialsRef":{"name":"mysecretname"}}},
        {"apiVersion":"apps.3scale.net/v1alpha1","kind":"APIcast","metadata":{"name":"example-apicast"},"spec":{"embeddedConfigurationSecretRef":{"name":"mysecretname"}}}]
-  name: apicast-community-operator.v0.2.0
+  name: apicast-community-operator.v0.2.1
   namespace: placeholder
 spec:
   replaces: apicast-community-operator.v0.1.1
@@ -181,4 +181,4 @@ spec:
   minKubeVersion: 1.11.0
   provider:
     name: Red Hat
-  version: 0.2.0
+  version: 0.2.1
