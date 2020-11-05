@@ -14,5 +14,5 @@ ifndef OPERATORCOURIER
 endif
 	rm -rf $(PROJECT_PATH)/.bundle || true
 	mkdir -p $(PROJECT_PATH)/.bundle
-	operator-courier --verbose flatten manifests/ $(PROJECT_PATH)/.bundle
-	operator-courier --verbose verify --ui_validate_io $(PROJECT_PATH)/.bundle
+	$(OPERATORCOURIER) --verbose flatten manifests/ $(PROJECT_PATH)/.bundle
+	$(OPERATORCOURIER) --verbose verify --ui_validate_io $(PROJECT_PATH)/.bundle
