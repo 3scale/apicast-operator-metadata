@@ -49,7 +49,7 @@ metadata:
     capabilities: Full Lifecycle
     categories: Integration & Delivery
     certified: "false"
-    containerImage: quay.io/3scale/apicast-operator:v0.2.0
+    containerImage: quay.io/3scale/apicast-operator:v0.3.0
     createdAt: "2019-10-27T22:40:00Z"
     description: APIcast is an API gateway built on top of NGINX. It is part of the 3scale API Management Platform
     repository: https://github.com/3scale/apicast-operator
