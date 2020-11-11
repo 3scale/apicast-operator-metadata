@@ -254,7 +254,7 @@ spec:
   - name: GitHub
     url: https://github.com/3scale/apicast-operator
   - name: Documentation
-    url: https://github.com/3scale/apicast-operator/tree/v3.8
+    url: https://github.com/3scale/apicast-operator/tree/v3.9
   maintainers:
   - email: eastizle+apicastoperator@redhat.com
     name: Apicast
